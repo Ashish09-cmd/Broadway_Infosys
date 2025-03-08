@@ -1,0 +1,343 @@
+
+.blue{
+  background-color: #0054C0;
+  
+}
+.text-blue{
+  color:#0054C0 ;
+}
+.orange{
+  color: #FF3F00;
+}
+.bg-orange{
+  background-color:#FF3F00 ;
+}
+.skyblue{
+  background-color: #00C3FF;
+}
+.lightskyblue{
+  color: #F8F9FA;
+}
+.bg-lightskyblue{
+  background-color: #F8F9FA;
+}
+.light-black{
+  color:#6b6565;
+}
+.light-green{
+  background-color: #EDFBFF;
+}
+.bg-lightgray{
+  background-color: #F5F6F9;
+}
+
+
+
+
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  max-width: 1280px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+/* header */
+.sticky{
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+}
+
+.navbar ul li a{
+  position:relative;
+}
+
+.navbar ul li a::after{
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 0;
+  background-color: #00C3FF;
+  transition: all .4s ease-in-out;
+}
+.navbar ul li a:hover::after{
+  width:100%;
+}
+
+
+.dp{
+  border-radius: 20px;
+}
+.logo{
+  width: 160px;
+}
+.nav-item a{
+  position: relative;
+}
+.nav-item a::after{
+position: absolute;
+left: 0;
+bottom: 0;
+height: 2px;
+width: 100%;
+background-color: #0054C0;
+}
+
+/* hiro  */
+.hiro{
+  background-color: #F5F6F9;
+}
+h1{
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.hiro-img{
+  height: 400px;
+  width: 550px;
+  object-fit: cover;
+  position: relative;
+ 
+}
+.fs-14px{
+  font-size: 17px;
+}
+
+.hiro-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar-group {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-group img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  position: relative;
+}
+
+.avatar-group img:not(:first-child) {
+  margin-left: -25px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  color: #333;
+}
+
+.training-section {
+  position: relative;
+  gap: 30px;
+}
+
+.floating-cards{
+  width: 250px;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border-radius:10px ;
+}
+.bg-pinky{
+  background-color: #FFE6DE;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.top-left{
+  top: -45px;
+  left:-115px;
+
+}
+.top-right{
+  width: 150px;
+  top: 60px;
+  right: -90px;
+}
+.bottom-center{
+  bottom: -50px;
+  left: 140px;
+}
+
+/* next */
+.btn1{
+  height: 50px;
+}
+
+.m{
+  height: 210px;
+  border-radius: 10px;
+}
+.scale-img{
+  position: relative;
+  overflow: hidden;
+}
+.scale-img img{
+  transition: all .4s ease-in-out;
+}
+.scale-img:hover img{
+  transform: scale(1.35);
+}
+.duration-top-right{
+  position: relative;
+}
+.duration-absolute-top-right{
+  position: absolute;
+  right: 12px;
+  top: 0;
+}
+/* madel */
+.border-radius{
+  border-radius: 20px;
+}
+.w-400{
+  width: 350px;
+  height: 400px;
+}
+
+.overlay-img{
+  position: absolute;
+  top: 70px;
+  left: 200px;
+}
+
+/* category design here */
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.dropdown-menu{
+  height: 400px;
+  overflow: auto;
+}
+/* patner */
+.con{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* clients */
+.client-img{
+  width: 150px;
+  height: 80px;
+}
+
+/* Footer section start */
+
+.fm{
+  margin-top:-15px;
+}
+.f-icons{
+  font-size: 27px;
+
+}
+
+.pay{
+  width: 80px;
+  background-color: #fff;
+}
+
+footer li{
+  cursor: pointer;
+  transition: .2s;
+  
+}
+
+footer li:hover{
+  transform: translate(30px, 0);
+}
+/* footer section end */
+
+/* Success Gallery page start */
+.f-img1{
+  height: 400px;
+  object-fit: cover;
+  width: 250px;
+}
+
+.f-img2{
+  height: 250px;
+  object-fit: cover;
+  width: 200px;
+}
+.f-img3{
+  height: 140px;
+  object-fit: cover;
+  width: 250px;
+}
+
+.recent-absolute{
+  position: absolute;
+  width: 280px;
+  left: -120px;
+  bottom: 40px;
+  height: 70px;
+ 
+}
+
+.f-img4{
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.success-std-img{
+  height: 100px;
+  width: 100px;
+  border-radius:50% ;
+}
+
+/* Testimonial */
+.testimonial-std-img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.inp-search{
+  width: 70%;
+  margin: auto;
+}
+.fix-height{
+  height: 300px;
+}
+
+/* upcoming classes */
+.up-card{
+  height: 350px;
+}
+
+.detail-image{
+  height: 300px;
+  width: 450px;
+  object-fit: cover;
+}
+
+.detail-image img{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
