@@ -56,7 +56,7 @@ function Hiro() {
                 Explore Our Cources <IoIosArrowRoundForward className="fs-4" />
               </button>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 d-flex my-5 py-5 py-lg-0 my-lg-0 justify-content-center ">
               <div className="training-section">
                 <div className="hiro-img">
                   <img

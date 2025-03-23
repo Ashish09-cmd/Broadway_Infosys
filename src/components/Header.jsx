@@ -20,13 +20,13 @@ function Header() {
     <header className='py-2 bg-lightgray sticky  border-bottom header '>
         <div className="container">
            <div className="row align-items-center ">
-            <div className="col-lg-2">
+            <div className="col-lg-2 col-md-2 col-4 col-sm-3">
               <Link to={'/'}>
-              <img className='logo' src="https://broadwayinfosys.com/uploads/logo/1705900306_15549.svg" alt="" />
+              <img className='logo w-100' src="https://broadwayinfosys.com/uploads/logo/1705900306_15549.svg" alt="" />
               </Link>
             </div>
 
-            <div className="col-lg-2 ">
+            <div className="col-lg-2 col-md-3 col-sm-4 col-4 ">
               <div className='d-flex align-items-center dropdown cursor-pointer  gap-3'data-bs-toggle="dropdown">
             <AiOutlineMenu  className='fs-5'/> <h5 className='mt-2'>All Cources</h5>
            <ul className="dropdown-menu">
@@ -64,16 +64,16 @@ function Header() {
   </ul>
 </div> */}
             </div>
-            <div className="col-lg-3 d-flex ">
+            <div className="col-lg-3 col-md-1 col-sm-2 d-none d-sm-block ">
               <div className="input-group">
-                 <input  type="text" className="form-control header" placeholder="What do you want to learn today ? " aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                 <input   type="text" className="form-control header d-none d-lg-block" placeholder="What do you want to learn today ? " aria-label="Recipient's username" aria-describedby="basic-addon2" />
                   <span className="input-group-text blue text-white" id="basic-addon2"><IoSearch /></span>
                </div>
 
             </div>
-            <div className="col-lg-5 d-flex gap-3 justify-content-end">
+            <div className="col-lg-5 col-md-6 col-4 col-sm-3 d-flex gap-3 justify-content-end">
               
-              <ul>
+              <ul className='d-none d-md-block'>
                 <li className='fw-semibold'>Inquiry Hotline:+977-9841002000</li>
                 <li className='fw-semibold'>+977-9808724535 /+977-1-4111849</li>
               </ul>

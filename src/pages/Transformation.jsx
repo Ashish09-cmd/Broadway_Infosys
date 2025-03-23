@@ -51,7 +51,7 @@ function Transformation() {
             </div>
             <div className="col-lg-6">
                 <img
-                  className="img-100 fix-height rounded"
+                  className="img-100 img-fluid fix-height rounded"
                   src="https://broadwayinfosys.com/uploads/testimonials/1733298678.webp"
                   alt=""
                 />

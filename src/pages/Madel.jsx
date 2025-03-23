@@ -7,7 +7,7 @@ function Madel() {
       <section className="py-5 bg-white ">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 position-relative">
+            <div className="col-lg-6  position-relative">
               <img
                 src="https://broadwayinfosys.com/uploads/homepage/17337266571332872138.png"
                 className="border-radius w-400"
@@ -15,7 +15,7 @@ function Madel() {
               />
               <img
                 src="https://broadwayinfosys.com/uploads/homepage/17337266579526010355.png"
-                className="border-radius overlay-img w-400"
+                className="border-radius d-none d-md-block overlay-img w-400"
                 alt=""
               />
             </div>

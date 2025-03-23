@@ -35,6 +35,8 @@
 
 
 
+
+
 ul{
   list-style: none;
   padding: 0;
@@ -74,6 +76,12 @@ ul{
   width:100%;
 }
 
+@media(max-width:668px){
+  .image-ful img{
+    height: 100%;
+    width: 100%;
+  }
+}
 
 .dp{
   border-radius: 20px;
@@ -118,6 +126,18 @@ h1{
   width: 100%;
   border-radius: 30px;
 }
+
+@media (max-width:842px){
+  .hiro-img{
+   height: 100%;
+   width: 50%;
+  }
+  .hiro-img{
+    height: 100%;
+    width: 90%;
+  }
+}
+
 
 .testimonial {
   display: flex;
@@ -216,11 +236,18 @@ h1{
   width: 350px;
   height: 400px;
 }
-
 .overlay-img{
   position: absolute;
   top: 70px;
   left: 200px;
+}
+
+@media(max-width:668px){
+  .w-400{
+     display: flex;
+     width:100%;
+     margin:20px 0px;
+  }
 }
 
 /* category design here */

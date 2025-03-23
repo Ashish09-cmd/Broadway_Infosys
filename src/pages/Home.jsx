@@ -40,14 +40,14 @@ function Home() {
         </div>
       </div>
 
-      <div className="row ">
+      <div className="row  ">
           {Cources.slice(0,6).map(a=>(
-             <div className="col-lg-2 py-3 " key={a.id}>
+             <div className="col-lg-2 py-3 col-md-4 image-ful  col-sm-6 " key={a.id}>
              
-              <div className="shadow p-3 m bg-white ">
+              <div className="shadow p-3   m bg-white ">
                <img className='w-100' src={a.image} alt="" />
-               <h6 className='text-dark pt-3'>{a.category}</h6>
-               <p className='text-danger'>{a.duration} </p>
+               <h6 className='text-dark d-none d-md-block pt-3'>{a.category}</h6>
+               <p className='text-danger d-none d-lg-block'>{a.duration} </p>
               </div>
               </div>
           ))}
